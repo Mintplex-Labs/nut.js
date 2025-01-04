@@ -1,5 +1,5 @@
 import { screen } from "../../../index";
-import { Point, RGBA } from "@nut-tree/shared";
+import { Point, RGBA } from "@mintplex-labs/nut-js-shared";
 import { mockPartial } from "sneer";
 import { toHaveColor } from "./toHaveColor.function";
 

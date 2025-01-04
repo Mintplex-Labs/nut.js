@@ -1,6 +1,6 @@
 import Jimp from "jimp";
-import { Image, imageToJimp, Point, RGBA } from "@nut-tree/shared";
-import { ImageProcessor } from "@nut-tree/provider-interfaces";
+import { Image, imageToJimp, Point, RGBA } from "@mintplex-labs/nut-js-shared";
+import { ImageProcessor } from "@mintplex-labs/nut-js-provider-interfaces";
 
 export default class implements ImageProcessor {
   async colorAt(

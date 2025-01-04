@@ -13,6 +13,6 @@
     "test": "ts-node index.ts"
   },
   "dependencies": {
-    "@nut-tree/nut-js": "workspace:*"
+    "@mintplex-labs/nut-js": "workspace:*"
   }
 }

@@ -1,6 +1,6 @@
 "use strict";
 
-const {Button, jestMatchers, mouse, straightTo, centerOf, randomPointIn, Region, Point, right, down, left, up} = require("@nut-tree/nut-js");
+const {Button, jestMatchers, mouse, straightTo, centerOf, randomPointIn, Region, Point, right, down, left, up} = require("@mintplex-labs/nut-js");
 
 expect.extend(jestMatchers);
 

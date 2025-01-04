@@ -1,4 +1,4 @@
-import { isRegion, Point, Region } from "@nut-tree/shared";
+import { isRegion, Point, Region } from "@mintplex-labs/nut-js-shared";
 
 /**
  * {@link centerOf} returns the center {@link Point} for a given {@link Region}

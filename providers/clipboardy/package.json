@@ -1,6 +1,6 @@
 {
-  "name": "@nut-tree/default-clipboard-provider",
-  "version": "4.2.0",
+  "name": "@mintplex-labs/nut-js-default-clipboard-provider",
+  "version": "4.2.3",
   "description": "The @nut-tree/nut-js default clipboard provider based on clipboardy",
   "main": "dist/index",
   "typings": "dist/index",
@@ -30,10 +30,10 @@
     "clipboardy": "2.3.0"
   },
   "devDependencies": {
-    "@nut-tree/provider-interfaces": "workspace:*",
-    "@nut-tree/configs": "workspace:*"
+    "@mintplex-labs/nut-js-provider-interfaces": "workspace:*",
+    "@mintplex-labs/nut-js-configs": "workspace:*"
   },
   "peerDependencies": {
-    "@nut-tree/nut-js": "^3"
+    "@mintplex-labs/nut-js": "^4"
   }
 }

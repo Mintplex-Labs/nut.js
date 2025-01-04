@@ -1,4 +1,4 @@
-import { Button, Point } from "@nut-tree/shared";
+import { Button, Point } from "@mintplex-labs/nut-js-shared";
 
 /**
  * A MouseActionProvider should provide access to a systems mouse input

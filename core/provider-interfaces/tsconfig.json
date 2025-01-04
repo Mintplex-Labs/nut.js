@@ -1,5 +1,5 @@
 {
-  "extends": "@nut-tree/configs/tsconfig/base.json",
+  "extends": "@mintplex-labs/nut-js-configs/tsconfig/base.json",
   "compilerOptions": {
     "outDir": "./dist"
   },

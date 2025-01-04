@@ -14,7 +14,7 @@ import {
   RGBA,
   WindowQuery,
   WordQuery
-} from "@nut-tree/shared";
+} from "@mintplex-labs/nut-js-shared";
 
 export {
   AssertClass,
@@ -28,10 +28,10 @@ export {
   providerRegistry
 };
 
-export { MatchRequest } from "@nut-tree/shared";
-export { MatchResult } from "@nut-tree/shared";
-export * from "@nut-tree/provider-interfaces";
-export * from "@nut-tree/shared";
+export { MatchRequest } from "@mintplex-labs/nut-js-shared";
+export { MatchResult } from "@mintplex-labs/nut-js-shared";
+export * from "@mintplex-labs/nut-js-provider-interfaces";
+export * from "@mintplex-labs/nut-js-shared";
 
 export { jestMatchers } from "./lib/expect/jest.matcher.function";
 export { sleep } from "./lib/sleep.function";

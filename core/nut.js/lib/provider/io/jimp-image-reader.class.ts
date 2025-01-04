@@ -1,6 +1,6 @@
 import Jimp from "jimp";
-import { ImageReader } from "@nut-tree/provider-interfaces";
-import { ColorMode, Image } from "@nut-tree/shared";
+import { ImageReader } from "@mintplex-labs/nut-js-provider-interfaces";
+import { ColorMode, Image } from "@mintplex-labs/nut-js-shared";
 
 export default class implements ImageReader {
   load(parameters: string): Promise<Image> {

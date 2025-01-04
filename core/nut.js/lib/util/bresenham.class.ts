@@ -1,4 +1,4 @@
-import { Point } from "@nut-tree/shared";
+import { Point } from "@mintplex-labs/nut-js-shared";
 
 export class Bresenham {
   public static compute(from: Point, to: Point): Point[] {

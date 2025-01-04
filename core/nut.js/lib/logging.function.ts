@@ -1,4 +1,4 @@
-import { LogProviderInterface } from "@nut-tree/provider-interfaces";
+import { LogProviderInterface } from "@mintplex-labs/nut-js-provider-interfaces";
 import {
   ConsoleLogLevel,
   ConsoleLogProvider,

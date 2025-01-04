@@ -1,8 +1,8 @@
-import { Button, Point } from "@nut-tree/shared";
+import { Button, Point } from "@mintplex-labs/nut-js-shared";
 import { MouseClass } from "./mouse.class";
 import { LineHelper } from "./util/linehelper.class";
 import { mockPartial } from "sneer";
-import { MouseProviderInterface, ProviderRegistry } from "@nut-tree/provider-interfaces";
+import { MouseProviderInterface, ProviderRegistry } from "@mintplex-labs/nut-js-provider-interfaces";
 import { NoopLogProvider } from "./provider/log/noop-log-provider.class";
 
 beforeEach(() => {

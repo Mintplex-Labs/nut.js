@@ -1,4 +1,4 @@
-import { Image, MatchRequest, MatchResult, Region } from "@nut-tree/shared";
+import { Image, MatchRequest, MatchResult, Region } from "@mintplex-labs/nut-js-shared";
 
 /**
  * An ImageFinder should provide an abstraction layer to perform image matching

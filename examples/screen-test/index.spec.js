@@ -1,6 +1,6 @@
 "use strict";
 
-const { screen, Region, imageResource } = require("@nut-tree/nut-js");
+const { screen, Region, imageResource } = require("@mintplex-labs/nut-js");
 require("@nut-tree/nl-matcher");
 
 describe("Screen test", () => {

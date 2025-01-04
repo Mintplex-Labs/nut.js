@@ -1,6 +1,6 @@
 {
-  "name": "@nut-tree/libnut",
-  "version": "4.2.0",
+  "name": "@mintplex-labs/nut-js-libnut",
+  "version": "4.2.3",
   "description": "libnut is an N-API module for desktop automation with node",
   "main": "dist/index",
   "typings": "dist/index",
@@ -42,16 +42,17 @@
     "node": ">=10.15.3"
   },
   "dependencies": {
-    "@nut-tree/libnut-darwin": "2.7.1",
-    "@nut-tree/libnut-linux": "2.7.1",
-    "@nut-tree/libnut-win32": "2.7.1"
+    "@nut-tree-fork/libnut-darwin": "2.7.3",
+    "@nut-tree-fork/libnut-linux": "2.7.3",
+    "@nut-tree-fork/libnut-win32": "2.7.3",
+    "@nut-tree-fork/libnut-winarm64": "npm:@mintplex-labs/libnut-winarm64@2.7.1"
   },
   "devDependencies": {
-    "@nut-tree/configs": "workspace:*",
-    "@nut-tree/shared": "workspace:*",
-    "@nut-tree/provider-interfaces": "workspace:*"
+    "@mintplex-labs/nut-js-configs": "workspace:*",
+    "@mintplex-labs/nut-js-shared": "workspace:*",
+    "@mintplex-labs/nut-js-provider-interfaces": "workspace:*"
   },
   "peerDependencies": {
-    "@nut-tree/nut-js": "^3"
+    "@nut-tree-fork/nut-js": "^4"
   }
 }

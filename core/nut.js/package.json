@@ -1,6 +1,6 @@
 {
-  "name": "@nut-tree/nut-js",
-  "version": "4.2.0",
+  "name": "@mintplex-labs/nut-js",
+  "version": "4.2.3",
   "license": "Apache-2.0",
   "main": "dist/index",
   "typings": "dist/index",
@@ -57,15 +57,15 @@
     "typedoc": "typedoc --out docs"
   },
   "dependencies": {
-    "@nut-tree/default-clipboard-provider": "workspace:*",
-    "@nut-tree/libnut": "workspace:*",
-    "@nut-tree/shared": "workspace:*",
-    "@nut-tree/provider-interfaces": "workspace:*",
+    "@mintplex-labs/nut-js-default-clipboard-provider": "workspace:*",
+    "@mintplex-labs/nut-js-libnut": "workspace:*",
+    "@mintplex-labs/nut-js-shared": "workspace:*",
+    "@mintplex-labs/nut-js-provider-interfaces": "workspace:*",
     "jimp": "0.22.10",
     "node-abort-controller": "3.1.1"
   },
   "devDependencies": {
-    "@nut-tree/configs": "workspace:*"
+    "@mintplex-labs/nut-js-configs": "workspace:*"
   },
   "engines": {
     "node": ">=16"
